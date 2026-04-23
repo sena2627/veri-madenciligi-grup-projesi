@@ -1,0 +1,44 @@
+{
+  "model": "RandomForestClassifier",
+  "dataset": "Rain in Australia",
+  "n_train": 113754,
+  "n_test": 28439,
+  "features": [
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustDir",
+    "WindGustSpeed",
+    "WindDir9am",
+    "WindDir3pm",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm",
+    "RainToday"
+  ],
+  "metrics": {
+    "accuracy": 0.8544,
+    "precision": 0.774,
+    "recall": 0.4952,
+    "f1": 0.604
+  },
+  "confusion_matrix": [
+    [
+      21142,
+      922
+    ],
+    [
+      3218,
+      3157
+    ]
+  ]
+}
