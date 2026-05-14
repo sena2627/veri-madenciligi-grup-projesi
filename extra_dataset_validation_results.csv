@@ -1,0 +1,9 @@
+Dataset,Scenario,Accuracy,Precision,Recall,F1 Score,Original F1,F1 Drop,F1 Drop (%),Robustness Index
+Breast Cancer,Original,0.9561,0.9561,0.9561,0.956,0.956,0.0,0.0,1.0
+Breast Cancer,Missing Noise,0.9474,0.9474,0.9474,0.9474,0.956,0.0087,0.9057,0.9909
+Breast Cancer,Outlier Noise,0.9474,0.9474,0.9474,0.9474,0.956,0.0087,0.9057,0.9909
+Breast Cancer,Missing + Outlier Noise,0.9474,0.9474,0.9474,0.9474,0.956,0.0087,0.9057,0.9909
+Wine,Original,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0
+Wine,Missing Noise,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0
+Wine,Outlier Noise,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0
+Wine,Missing + Outlier Noise,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0
