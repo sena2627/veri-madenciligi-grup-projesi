@@ -1,4 +1,23 @@
 # Veri Gürültüsü Pattern Öğrenme ve Model Dayanıklılık Sistemi
+| Dosya                                  | Açıklama                                                |
+| -------------------------------------- | ------------------------------------------------------- |
+| `weatherAUS.csv`                       | Ana veri seti                                           |
+| `hafta1_model.py`                      | Baseline Random Forest model kodu                       |
+| `baseline_results.json`                | Temiz veri baseline sonuçları                           |
+| `hafta1_baseline_grafik.png`           | Baseline model performans grafiği                       |
+| `hafta1_feature_importance.png`        | Feature importance grafiği                              |
+| `hafta2_model.py`                      | Noise üretimi ve karşılaştırma kodları                  |
+| `random_missing.csv`                   | Random missing noise uygulanmış veri                    |
+| `random_outlier.csv`                   | Random outlier noise uygulanmış veri                    |
+| `random_missing_outlier.csv`           | Missing + outlier noise uygulanmış veri                 |
+| `pattern_low.csv`                      | Düşük seviye pattern-based noise veri seti              |
+| `pattern_medium.csv`                   | Orta seviye pattern-based noise veri seti               |
+| `pattern_high.csv`                     | Yüksek seviye pattern-based noise veri seti             |
+| `final_results.csv`                    | WeatherAUS üzerindeki ana model karşılaştırma sonuçları |
+| `hafta2_karsilastirma.png`             | Noise senaryoları karşılaştırma grafiği                 |
+| `hafta2_f1_dusus.png`                  | F1 düşüş grafiği                                        |
+| `Ek_Veri_Kod.ipynb`                    | Ek veri seti doğrulama notebook’u                       |
+| `extra_dataset_validation_results.csv` | Breast Cancer ve Wine veri seti doğrulama sonuçları     |
 
 ## Proje Amacı
 
